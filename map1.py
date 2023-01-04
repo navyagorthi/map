@@ -3,7 +3,7 @@ import tkintermapview
 
 root = tk.Tk()
 root.title("POI LEI e LUI e +++")
-root.iconbitmap('python Wiederholung/A3_Tkinter/project/img/gui.ico')
+root.iconbitmap('gui.ico')
 
 marker_count = 0
 
