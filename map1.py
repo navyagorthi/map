@@ -44,7 +44,7 @@ def change_search_map():
         x = float(searchfield.get().split(sep)[0])
         y = float(searchfield.get().split(sep)[1])
 
-        map_widget.set_marker(round(x, 4), y, text=searchfield.get())
+        map_widget.set_marker(x, y, text=searchfield.get())
     else:
         print("not a valid entry")
 
